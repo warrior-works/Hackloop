@@ -1,6 +1,6 @@
 let userConfig = undefined
 try {
-  userConfig = await import('./hackloop.config')
+  userConfig = await import('./hackloops.config')
 } catch (e) {
   // ignore error
 }

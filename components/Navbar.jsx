@@ -38,7 +38,7 @@ export default function Navbar({ activeSection }) {
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex flex-col items-center">
-          <img src="./logo1.png" alt="Logo" className="h-[50px] " />
+          <img src="./LOGO.png" alt="Logo" className="h-[50px] " />
 
           {/* <span className="text-3xl font-bold text-amber-500">∞</span> */}
         </a>
@@ -56,7 +56,7 @@ export default function Navbar({ activeSection }) {
             </a>
           ))}
           <Button className="bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white border-none transform hover:scale-105 transition-all duration-300">
-            <a href="https://lu.ma/xl5esac2" className="text-white no-underline">Register</a>
+            <a href="#" className="text-white no-underline">Register</a>
           </Button>
         </nav>
 
@@ -81,7 +81,7 @@ export default function Navbar({ activeSection }) {
               </a>
             ))}
             <Button className="bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white border-none transform hover:scale-105 transition-all duration-300">
-              <a href="https://lu.ma/xl5esac2" className="text-white no-underline">Register</a>
+              <a href="#" className="text-white no-underline">Register</a>
             </Button>
           </nav>
         </div>

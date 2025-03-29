@@ -38,7 +38,7 @@ export default function Navbar({ activeSection }) {
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex flex-col items-center">
-          <img src="./LOGO.png" alt="Logo" className="h-[50px] " />
+          <img src="./ICON.png" alt="Logo" className="h-[50px] " />
 
           {/* <span className="text-3xl font-bold text-amber-500">∞</span> */}
         </a>

@@ -368,7 +368,7 @@ export default function Prizes() {
           {/* Footer Section */}
           <motion.div variants={itemVariants} className="text-center">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
-              <a href="https://lu.ma/xl5esac2" target="_blank" rel="noopener noreferrer" className="inline-block">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="inline-block">
                 <button className="bg-gradient-to-r from-red-500 to-orange-500 font-bold rounded-lg px-8 py-3 text-white hover:from-red-600 hover:to-orange-600 shadow-lg hover:shadow-red-500/40 transition-all">
                   Register Now
                 </button>

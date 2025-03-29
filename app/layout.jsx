@@ -4,7 +4,7 @@ import InfinityLoader from "@/components/InfinityLoader"
 import GoogleAnalytics from "@/lib/GoogleAnalytics"
 
 export const metadata = {
-  title: "Hack Infinity - Infinite Possibilities. Infinite Innovation.",
+  title: "Hackloop - Infinite Possibilities. Infinite Innovation.",
   description:
     "Join us for 36 hours of coding, creativity, and collaboration. Push the boundaries of what's possible and build the future.",
     generator: 'v0.dev',

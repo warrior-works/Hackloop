@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto text-center">
         <div className="flex justify-center mb-6">
           <div className="flex flex-col items-center">
-            <img src="./logo1.png" alt="Logo" className="h-[50px] " />
+            <img src="./ICON.png" alt="Logo" className="h-[50px] " />
 
             {/* <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">
               HACK
@@ -12,7 +12,7 @@ export default function Footer() {
 
           </div>
         </div>
-        <p className="text-gray-500 mb-4">© {new Date().getFullYear()} Hack Infinity. All rights reserved.</p>
+        <p className="text-gray-500 mb-4">© {new Date().getFullYear()} Hackloop. All rights reserved.</p>
         <div className="flex justify-center gap-4 text-sm text-gray-600">
           <a href="#" className="hover:text-red-500 transition-colors duration-300">
             Privacy Policy
@@ -26,10 +26,9 @@ export default function Footer() {
             Code of Conduct
           </a>
         </div>
-        <p className="text-xs text-gray-700 mt-4 font-mono">"To infinity and beyond."</p>
+        <p className="text-xs text-gray-700 mt-4 font-mono">Loved this website? Make it yours today!</p>
         <p className="text-xs text-gray-600 mt-2">
-          Designed and Developed by <a href="https://aadityavinayak.in.net" target="_blank" rel="noopener noreferrer" className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500 hover:from-red-400 hover:to-amber-400 transition-all duration-300">Aaditya Vinayak </a>
-           & <a href="https://bento.me/kartikmehta18" target="_blank" rel="noopener noreferrer" className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500 hover:from-red-400 hover:to-amber-400 transition-all duration-300">Kartik Mehta</a>
+          Designed and Developed by <a href="https://www.devdisplay.org/profile/codeaashu" target="_blank" rel="noopener noreferrer" className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500 hover:from-red-400 hover:to-amber-400 transition-all duration-300">aashuu </a>
         </p>
       </div>
     </footer>

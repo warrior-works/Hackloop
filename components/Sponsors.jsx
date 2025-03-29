@@ -25,26 +25,26 @@ function Sponsors() {
   // Sample sponsor data - replace with your actual sponsors
   const sponsors = {
     hosted_by: [
-      { id: 1, name: "Host Organization", logo: "/piet.png?height=400&width=600", website: "https://piet.co.in" },
+      { id: 1, name: "Host Organization", logo: "/DevDisplayLOGO.png", website: "https://piet.co.in" },
     ],
     platinum: [
       { id: 1, name: "Platinum Sponsor 1", logo: "/placeholder.svg?height=100&width=200", website: "#" },
       { id: 2, name: "Platinum Sponsor 2", logo: "/placeholder.svg?height=100&width=200", website: "#" },
     ],
     gold: [
-      { id: 1, name: "Gold Sponsor 1", logo: "/sponsors/ox.png", website: "https://0x.day" },
-      { id: 2, name: "Gold Sponsor 2", logo: "/sponsors/innovact.png", website: "https://innovact.in" },
+      { id: 1, name: "Gold Sponsor 1", logo: "/sponsors/Microsoft.png", website: "https://www.microsoft.com/" },
+      { id: 2, name: "Gold Sponsor 2", logo: "/sponsors/JetBrains.png", website: "https://www.jetbrains.com/" },
     ],
     silver: [
-      { id: 1, name: "Silver Sponsor 1", logo: "/sponsors/xyz.png", website: "https://xyz.com" },
-      { id: 2, name: "Silver Sponsor 2", logo: "/sponsors/codecrafter.png", website: "https://codecrafters.io" },
-      { id: 3, name: "Silver Sponsor 3", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxT6W2J3-40UX9t2ELVsd2lBlaVIsMk63iKQ&s", website: "https://interviewbuddy.net" },
+      { id: 1, name: "Silver Sponsor 1", logo: "/sponsors/GitHub.png", website: "https://github.com/" },
+      { id: 2, name: "Silver Sponsor 2", logo: "/sponsors/Adobe.png", website: "https://www.adobe.com/" },
+      { id: 3, name: "Silver Sponsor 3", logo: "/sponsors/xyz.png", website: "https://xyz.com/" },
     ],
     community: [
-      { id: 4, name: "Community Partner 3", logo: "/sponsors/cyborgs.png", website: "https://bento.me/thecyborgs" },
-      { id: 1, name: "Community Partner 1", logo: "/cp/CSquareWhite.png", website: "#" },
-      { id: 2, name: "Community Partner 2", logo: "/cp/devdisplay.png", website: "#" },
-      { id: 3, name: "Community Partner 3", logo: "/cp/Kaizen.jpg", website: "#" },
+      { id: 4, name: "Community Partner 3", logo: "/cp/Airbnb.png", website: "#" },
+      { id: 1, name: "Community Partner 1", logo: "/cp/Accenture.png", website: "#" },
+      { id: 2, name: "Community Partner 2", logo: "/cp/JPMorgan.png", website: "#" },
+      { id: 3, name: "Community Partner 3", logo: "/cp/Meta.png", website: "#" },
 
     ],
     previous: [
@@ -553,7 +553,7 @@ function Sponsors() {
                 justifyContent: "center",
                 flexWrap: "wrap"
               }}>
-                <Link href="https://drive.google.com/file/d/1-8mj1j2CPinWE5YPJLZgBoq-P6quoh5w/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <Link href="#" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="contained"
                     size="large"
@@ -576,7 +576,7 @@ function Sponsors() {
                     Become a Sponsor
                   </Button>
                 </Link>
-                <Link href="https://lu.ma/40abgjcr" target="_blank" rel="noopener noreferrer">
+                <Link href="#" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outlined"
                     size="large"

@@ -53,7 +53,7 @@ export default function HackathonWebsite() {
     };
   }, []);
 
-  const hackathonDate = new Date("2025-04-18T00:00:00");
+  const hackathonDate = new Date("2025-12-12T00:00:00");
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -74,7 +74,7 @@ export default function HackathonWebsite() {
 
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto mt-[40vh]">
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500 ">HACK</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500 ">HACK LOOP</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 font-mono">INFINITE POSSIBILITIES. INFINITE INNOVATION.</p>
           <p className="text-lg md:text-xl text-gray-400 mt-2 max-w-2xl mx-auto">
@@ -87,7 +87,7 @@ export default function HackathonWebsite() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://lu.ma/xl5esac2" target="_blank" rel="noopener noreferrer">
+            <Link href="#" target="_blank" rel="noopener noreferrer">
               <Button className="bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white border-none transform hover:scale-105 transition-all duration-300">
                 Register Now
               </Button>

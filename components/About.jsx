@@ -33,8 +33,8 @@ const About = () => {
   }
 
   // Hackathon dates
-  const startDate = new Date("2025-04-18T00:00:00")
-  const endDate = new Date("2025-04-19T23:59:59")
+  const startDate = new Date("2025-12-18T00:00:00")
+  const endDate = new Date("2025-12-19T23:59:59")
 
   return (
     <motion.div
@@ -57,7 +57,7 @@ const About = () => {
                 whileInView={{ width: 32 }}
                 transition={{ duration: 0.8 }}
               ></motion.span>
-              ABOUT HACK INFINITY
+              ABOUT HACK LOOP
               <motion.span 
                 className="w-8 h-1 bg-red-500 ml-4"
                 initial={{ width: 0 }}
@@ -66,9 +66,7 @@ const About = () => {
               ></motion.span>
             </h2>
             <p className="text-gray-400 max-w-3xl mx-auto">
-              Hack Infinity is a 36-hour hackathon that brings together developers, designers, and innovators to create
-              solutions that push the boundaries of technology. With the theme of "Infinite Possibilities," we challenge
-              you to think beyond conventional limits.
+              HackLoop is a global hackathon where innovation never stops—just like an infinite loop!
             </p>
           </motion.div>
 
@@ -104,8 +102,8 @@ const About = () => {
                     <MapPin className="text-amber-500" />
                   </motion.div>
                   <h3 className="text-xl font-bold mb-2">Location</h3>
-                  <p className="text-gray-400">Poornima Institute of Engineering and Technology</p>
-                  <p className="text-gray-500 text-sm mt-2">Jaipur, Rajasthan</p>
+                  <p className="text-gray-400">Stanford University</p>
+                  <p className="text-gray-500 text-sm mt-2">United States</p>
                 </CardContent>
               </Card>
             </motion.div>

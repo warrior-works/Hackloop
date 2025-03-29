@@ -5,7 +5,7 @@ import { useForm, ValidationError } from "@formspree/react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { toast } from "sonner"
-import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6"
+import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6"
 
 function Contact() {
   const [state, handleSubmit] = useForm("xanenbvb") // Replace with your actual Formspree form ID
@@ -65,7 +65,7 @@ function Contact() {
                       <h4 className="font-bold text-amber-500 group-hover:text-amber-400 transition-colors duration-300">
                         Phone
                       </h4>
-                      <p className="text-gray-400">+91 8209132917</p>
+                      <p className="text-gray-400">+91 6209950346</p>
                     </div>
                   </div>
 
@@ -91,7 +91,7 @@ function Contact() {
                       <h4 className="font-bold text-amber-500 group-hover:text-amber-400 transition-colors duration-300">
                         Email
                       </h4>
-                      <p className="text-gray-400">aicte.idealab@poornima.org</p>
+                      <p className="text-gray-400">hellow.ashutosh@gmail.com</p>
                     </div>
                   </div>
 
@@ -117,32 +117,36 @@ function Contact() {
                       <h4 className="font-bold text-amber-500 group-hover:text-amber-400 transition-colors duration-300">
                         Location
                       </h4>
-                      <p className="text-gray-400">Jaipur, Rajasthan</p>
+                      <p className="text-gray-400">Mostly On DevDisplay</p>
                       <h3 className="text-xl font-bold mb-4 text-amber-500 mt-2">Follow Us</h3>
                       <p className="text-gray-400 mb-6">
                         Stay updated with the latest news and announcements about the hackathon.
                       </p>
                       <div className="flex gap-4">
                         <a
-                          href="https://www.facebook.com/PoornimaInstitute?rdid=SZjxp6HvV91oximh"
+                          href="https://www.devdisplay.org/profile/codeaashu"
                           className="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center hover:bg-red-500/40 transition-colors duration-300 transform hover:scale-110"
                         >
-                          <FaFacebookF className="text-red-500 text-xl" />
+                          <img
+                            src="/DevDisplay.png"
+                            alt="DevDisplay"
+                            className="w-6 h-6"
+                          />
                         </a>
                         <a
-                          href="https://x.com/PIET_Jaipur"
+                          href="https://twitter.com/warrior_aashuu"
                           className="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center hover:bg-red-500/40 transition-colors duration-300 transform hover:scale-110"
                         >
                           <FaXTwitter className="text-red-500 text-xl" />
                         </a>
                         <a
-                          href="https://www.instagram.com/pietaicteidealab"
+                          href="https://www.instagram.com/warrior_aashuu/"
                           className="w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center hover:bg-amber-500/40 transition-colors duration-300 transform hover:scale-110"
                         >
                           <FaInstagram className="text-amber-500 text-xl" />
                         </a>
                         <a
-                          href="https://www.linkedin.com/school/poornima-group-of-colleges/"
+                          href="https://www.linkedin.com/in/ashutoshkumaraashu/"
                           className="w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center hover:bg-amber-500/40 transition-colors duration-300 transform hover:scale-110"
                         >
                           <FaLinkedinIn className="text-amber-500 text-xl" />

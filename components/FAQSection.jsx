@@ -46,9 +46,9 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Who can participate in Hack Infinity?",
+      question: "Who can participate in Hackloop?",
       answer:
-        "Hack Infinity is open to students and tech enthusiasts of all skill levels. Whether you're a beginner or an exp inerienced developer, you're welcome to join!",
+        "Hackloop is open to students and tech enthusiasts of all skill levels. Whether you're a beginner or an exp inerienced developer, you're welcome to join!",
     },
     {
       question: "Do I need to have a team to register?",
@@ -63,7 +63,7 @@ export default function FAQSection() {
     {
       question: "Is there a registration fee?",
       answer:
-        "No, Hack Infinity is completely free to participate in. We believe in making innovation accessible to everyone.",
+        "No, Hackloop is completely free to participate in. We believe in making innovation accessible to everyone.",
     },
     {
       question: "Will there be Wifi, food and accommodation?",

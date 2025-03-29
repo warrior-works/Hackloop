@@ -6,25 +6,25 @@ import GoogleAnalytics from "@/lib/GoogleAnalytics"
 export const metadata = {
   title: "Hackloop - Infinite Possibilities. Infinite Innovation.",
   description:
-    "Join us for 36 hours of coding, creativity, and collaboration. Push the boundaries of what's possible and build the future.",
-    generator: 'v0.dev',
-    metadataBase: new URL('https://hackathon.poornima.org'),
-    keywords: ['hackathon', 'coding', 'technology', 'innovation', 'programming', 'hack infinity', 'poornima', 'poornima institute of engineering and technology', 'poornima hackathon', 'poornima hackathon 2025'],
-    authors: [{ name: 'Hack Infinity Team' }],
+    "HackLoop is a global hackathon where innovation never stops—just like an infinite loop!",
+    generator: 'Hackloop',
+    metadataBase: new URL('https://hackloop.vercel.app/'),
+    keywords: ['hackathon', 'coding', 'technology', 'innovation', 'programming', 'hackloop', 'DevDisplay', 'devdisplay', 'DevDisplay hackathon', 'Global hackathon 2025'],
+    authors: [{ name: 'aashuu' }],
     icons: {
       icon: '/favicon.png',
     },
     openGraph: {
-      title: 'Hack Infinity - Infinite Possibilities. Infinite Innovation.',
+      title: 'Hackloop - Infinite Possibilities. Infinite Innovation.',
       description: 'Join us for 36 hours of coding, creativity, and collaboration. Push the boundaries of what\'s possible and build the future.',
-      url: 'https://hackathon.poornima.org',
-      siteName: 'Hack Infinity',
+      url: 'https://hackloop.vercel.app/',
+      siteName: 'Hackloop',
       images: [
         {
-          url: '/INFI.png',
+          url: '/LOGO.png',
           width: 1200,
           height: 630,
-          alt: 'Hack Infinity - 36 Hour Hackathon'
+          alt: 'Hackloop - 36 Hour Hackathon'
         }
       ],
       locale: 'en_IN',
